@@ -100,16 +100,16 @@ export default {
 <style scoped>
 
   .roll-turntable-wrapper {
-    margin: .266667rem auto;
+    margin: 20px auto;
     position: relative;
-    width: 7.6rem;
-    height: 7.6rem;
+    width: 570px;
+    height: 570px;
     overflow: hidden;
   }
 
   .roll-turntable {
-    width: 7.6rem;
-    height: 7.6rem;
+    width: 570px;
+    height: 570px;
     transition: all 2.5s;
     transition-timing-function: cubic-bezier(.25, .84, .54, .95);
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ export default {
   .roll-start-btn {
     position: absolute;
     left: 0;
-    top: 2.133333rem;
+    top: 160px;
     right: 0;
     margin: 0 auto;
     outline:none;
@@ -132,8 +132,8 @@ export default {
     background: none;
     appearance: none;
     display: block;
-    width: 2.906667rem;
-    height: 3.026667rem;
+    width: 218px;
+    height: 227px;
     background-size: 100% 100%;
   }
 
@@ -143,7 +143,7 @@ export default {
   }
 
   .start-btn {
-    font-size: .533333rem;
+    font-size: 40px;
     text-align: center;
     color: #fff;
   }
